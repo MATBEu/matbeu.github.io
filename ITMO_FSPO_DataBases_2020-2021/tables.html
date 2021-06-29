@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Таблицы - y2336 savchuk</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\u0422\u0430\u0431\u043b\u0438\u0446\u044b";
+    var mkdocs_page_input_path = "tables.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="index.html" class="icon icon-home"> y2336 savchuk</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="index.html">Главная</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="tables.html">Таблицы</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#c">cотрудник</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_2">редактор</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_3">книга</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_4">правки</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_5">редакторы</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_6">менеджер</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_7">автор</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_8">заказчик</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_9">контракт</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_10">заказы</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_11">Код создания таблиц</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_12">Код заполнения данных</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="requests.html">Запросы</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="php.html">PHP</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="mongo.html">MongoDB</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">y2336 savchuk</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Таблицы</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="_1">Таблицы</h1>
+<h2 id="c"><strong>cотрудник</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Type</th>
+<th align="center">PK</th>
+<th align="center">FK</th>
+<th align="center">Unique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id_сотрудника</td>
+<td>integer</td>
+<td align="center">True</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>фио_сотрудника</td>
+<td>text</td>
+<td align="center">False</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2"><strong>редактор</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Type</th>
+<th align="center">PK</th>
+<th align="center">FK</th>
+<th align="center">Unique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id_сотрудника</td>
+<td>integer</td>
+<td align="center">False</td>
+<td align="center">True</td>
+<td align="center">True</td>
+</tr>
+<tr>
+<td>обязанности_сотрудника</td>
+<td>text</td>
+<td align="center">False</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3"><strong>книга</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Type</th>
+<th align="center">PK</th>
+<th align="center">FK</th>
+<th align="center">Unique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id_книги</td>
+<td>integer</td>
+<td align="center">True</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>название_книги</td>
+<td>text</td>
+<td align="center">False</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4"><strong>правки</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Type</th>
+<th align="center">PK</th>
+<th align="center">FK</th>
+<th align="center">Unique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id_сотрудника</td>
+<td>integer</td>
+<td align="center">False</td>
+<td align="center">True</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>id_книги</td>
+<td>integer</td>
+<td align="center">False</td>
+<td align="center">True</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>состав_правок</td>
+<td>text</td>
+<td align="center">False</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_5"><strong>редакторы</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Type</th>
+<th align="center">PK</th>
+<th align="center">FK</th>
+<th align="center">Unique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id_сотрудника</td>
+<td>integer</td>
+<td align="center">False</td>
+<td align="center">True</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>id_книги</td>
+<td>integer</td>
+<td align="center">False</td>
+<td align="center">True</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>статус_редактора</td>
+<td>boolean</td>
+<td align="center">False</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>зарплата</td>
+<td>integer</td>
+<td align="center">False</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_6"><strong>менеджер</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Type</th>
+<th align="center">PK</th>
+<th align="center">FK</th>
+<th align="center">Unique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id_сотрудника</td>
+<td>integer</td>
+<td align="center">False</td>
+<td align="center">True</td>
+<td align="center">True</td>
+</tr>
+<tr>
+<td>обязанности_сотрудника</td>
+<td>text</td>
+<td align="center">False</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_7"><strong>автор</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Type</th>
+<th align="center">PK</th>
+<th align="center">FK</th>
+<th align="center">Unique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id_автора</td>
+<td>integer</td>
+<td align="center">True</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>фио_автора</td>
+<td>text</td>
+<td align="center">False</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_8"><strong>заказчик</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Type</th>
+<th align="center">PK</th>
+<th align="center">FK</th>
+<th align="center">Unique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id_заказчика</td>
+<td>integer</td>
+<td align="center">True</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>фио_заказчика</td>
+<td>text</td>
+<td align="center">False</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_9"><strong>контракт</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Type</th>
+<th align="center">PK</th>
+<th align="center">FK</th>
+<th align="center">Unique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id_контракта</td>
+<td>integer</td>
+<td align="center">True</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>id_сотрудника</td>
+<td>integer</td>
+<td align="center">False</td>
+<td align="center">True</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>id_автора</td>
+<td>integer</td>
+<td align="center">False</td>
+<td align="center">True</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>id_заказчика</td>
+<td>integer</td>
+<td align="center">False</td>
+<td align="center">True</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>id_книги</td>
+<td>integer</td>
+<td align="center">False</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>стоимость</td>
+<td>integer</td>
+<td align="center">False</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>дата_заключения</td>
+<td>timestamp</td>
+<td align="center">False</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>дата_выполнения</td>
+<td>timestamp</td>
+<td align="center">False</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_10"><strong>заказы</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Type</th>
+<th align="center">PK</th>
+<th align="center">FK</th>
+<th align="center">Unique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id_заказчика</td>
+<td>integer</td>
+<td align="center">False</td>
+<td align="center">True</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>id_книги</td>
+<td>integer</td>
+<td align="center">False</td>
+<td align="center">True</td>
+<td align="center">False</td>
+</tr>
+<tr>
+<td>дата_заказа</td>
+<td>timestamp</td>
+<td align="center">False</td>
+<td align="center">False</td>
+<td align="center">False</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_11"><strong>Код создания таблиц</strong></h2>
+<pre><code class="language-postgresql">create table сотрудник (
+  id_сотрудника INTEGER primary key, 
+  фио_сотрудника TEXT
+);
+
+create table редактор (
+  id_сотрудника INTEGER, 
+  обязанности_сотрудника TEXT,
+  FOREIGN KEY (id_сотрудника) REFERENCES сотрудник (id_сотрудника) ON DELETE CASCADE,
+  UNIQUE(id_сотрудника)
+);
+
+create table книга (
+  id_книги INTEGER primary key, 
+  название_книги TEXT
+);
+
+create table правки (
+  id_сотрудника INTEGER, 
+  id_книги INTEGER,
+  состав_правок TEXT,
+  FOREIGN KEY (id_сотрудника) REFERENCES редактор (id_сотрудника) ON DELETE CASCADE,
+  FOREIGN KEY (id_книги) REFERENCES книга (id_книги) ON DELETE CASCADE
+);
+
+create table редакторы (
+  id_сотрудника INTEGER, 
+  id_книги INTEGER,
+  статус_редактора boolean,
+  зарплата integer,
+  FOREIGN KEY (id_сотрудника) REFERENCES редактор (id_сотрудника) ON DELETE CASCADE,
+  FOREIGN KEY (id_книги) REFERENCES книга (id_книги) ON DELETE CASCADE
+);
+
+create table менеджер (
+  id_сотрудника INTEGER, 
+  обязанности_сотрудника TEXT,
+  FOREIGN KEY (id_сотрудника) REFERENCES сотрудник (id_сотрудника) ON DELETE CASCADE,
+  UNIQUE(id_сотрудника)
+);
+
+create table автор (
+  id_автора INTEGER primary key, 
+  фио_автора TEXT
+);
+
+create table заказчик (
+  id_заказчика INTEGER primary key, 
+  фио_заказчика TEXT
+);
+
+create table контракт (
+  id_контракта INTEGER PRIMARY KEY, 
+  id_сотрудника INTEGER,
+  id_автора INTEGER,
+  id_заказчика INTEGER,
+  id_книги INTEGER,
+  стоимость integer,
+  дата_заключения timestamp,
+  дата_выполнения timestamp,
+  FOREIGN KEY (id_сотрудника) REFERENCES менеджер (id_сотрудника) ON DELETE CASCADE ,
+  FOREIGN KEY (id_автора) REFERENCES автор (id_автора) ON DELETE CASCADE,
+  FOREIGN KEY (id_заказчика) REFERENCES заказчик (id_заказчика) ON DELETE CASCADE,
+  FOREIGN KEY (id_книги) REFERENCES книга (id_книги) ON DELETE CASCADE
+);
+
+create table заказы (
+  id_заказчика INTEGER, 
+  id_книги INTEGER,
+  дата_заказа timestamp,
+  FOREIGN KEY (id_заказчика) REFERENCES заказчик (id_заказчика) ON DELETE CASCADE,
+  FOREIGN KEY (id_книги) REFERENCES книга (id_книги) ON DELETE CASCADE
+);
+
+</code></pre>
+<h2 id="_12"><strong>Код заполнения данных</strong></h2>
+<pre><code class="language-postgresql">INSERT INTO &quot;сотрудник&quot; VALUES 
+(0, 'Иван Васильев'),
+(1, 'Дмитрий Иванов'),
+(2, 'Кирилл Дмитриенко');
+
+INSERT INTO &quot;редактор&quot; VALUES 
+(0, 'Редактирование описаний для книг'),
+(1, 'Проверка достоверности обложек книг');
+
+INSERT INTO &quot;книга&quot; VALUES 
+(0, 'Доктор Гарин'),
+(1, 'Темные пути'),
+(2, 'Тревожные люди');
+
+INSERT INTO &quot;правки&quot; VALUES 
+(0, 1, 'Неверное описание'),
+(1, 2, 'Перепутана обложка с книгой под номером 0');
+
+INSERT INTO &quot;редакторы&quot; VALUES 
+(0, 1, true, 15000),
+(1, 2, true, 14000);
+
+INSERT INTO &quot;менеджер&quot; VALUES 
+(2, 'Проверка заказов и контрактов');
+
+INSERT INTO &quot;автор&quot; VALUES 
+(0, 'Владимир Сорокин'),
+(1, 'Андрей Васильев'),
+(2, 'Фредрик Бакман');
+
+INSERT INTO &quot;заказчик&quot; VALUES 
+(0, 'Максим Фед');
+
+INSERT INTO &quot;контракт&quot; VALUES 
+(0, 2, 1, 0, 1, 1500, '2021-05-07 08:18', '2021-05-07 10:00');
+
+INSERT INTO &quot;заказы&quot; VALUES 
+(0, 1, '2021-05-07 07:10');
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="requests.html" class="btn btn-neutral float-right" title="Запросы">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Главная"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="index.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="requests.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme_extra.js" defer></script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
